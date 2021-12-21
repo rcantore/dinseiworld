@@ -1,0 +1,43 @@
+html {
+    --lumo-font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    --lumo-border-radius: 0.5em;
+    --lumo-primary-text-color: rgb(0, 0, 0);
+    --lumo-primary-color-50pct: rgba(255, 247, 230, 0.5);
+    --lumo-primary-color-10pct: rgba(255, 247, 230, 0.1);
+    --lumo-primary-color: #fff7e6;
+    --lumo-tint-5pct: rgba(244, 238, 225, 0.05);
+    --lumo-tint-10pct: rgba(244, 238, 225, 0.1);
+    --lumo-tint-20pct: rgba(244, 238, 225, 0.2);
+    --lumo-tint-30pct: rgba(244, 238, 225, 0.3);
+    --lumo-tint-40pct: rgba(244, 238, 225, 0.4);
+    --lumo-tint-50pct: rgba(244, 238, 225, 0.5);
+    --lumo-tint-60pct: rgba(244, 238, 225, 0.6);
+    --lumo-tint-70pct: rgba(244, 238, 225, 0.7);
+    --lumo-tint-80pct: rgba(244, 238, 225, 0.8);
+    --lumo-tint-90pct: rgba(244, 238, 225, 0.9);
+    --lumo-shade-5pct: rgba(44, 38, 22, 0.05);
+    --lumo-shade-10pct: rgba(44, 38, 22, 0.1);
+    --lumo-shade-20pct: rgba(44, 38, 22, 0.2);
+    --lumo-shade-30pct: rgba(44, 38, 22, 0.3);
+    --lumo-shade-40pct: rgba(44, 38, 22, 0.4);
+    --lumo-shade-50pct: rgba(44, 38, 22, 0.5);
+    --lumo-shade-60pct: rgba(44, 38, 22, 0.6);
+    --lumo-shade-70pct: rgba(44, 38, 22, 0.7);
+    --lumo-shade-80pct: rgba(44, 38, 22, 0.8);
+    --lumo-shade-90pct: rgba(44, 38, 22, 0.9);
+    --lumo-error-text-color: rgb(255, 0, 55);
+    --lumo-error-color-50pct: rgba(236, 91, 122, 0.5);
+    --lumo-error-color-10pct: rgba(236, 91, 122, 0.1);
+    --lumo-success-text-color: rgb(32, 162, 56);
+    --lumo-success-color-50pct: rgba(32, 162, 56, 0.5);
+    --lumo-success-color-10pct: rgba(32, 162, 56, 0.1);
+    --lumo-tint: #f4eee1;
+    --lumo-shade: hsl(42, 33%, 13%);
+    --lumo-error-color: #ec5b7a;
+    --lumo-success-color: #20a238;
+    --lumo-header-text-color: #b7830b;
+    --lumo-primary-contrast-color: #e62828;
+}
+
+[theme~="dark"] {
+}

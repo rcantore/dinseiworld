@@ -1,5 +1,7 @@
 package com.michead.dinseiworld.ui;
+
 import com.michead.dinseiworld.ui.views.MainView;
+import com.michead.dinseiworld.ui.views.characters.CharacterListView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.contextmenu.ContextMenu;
@@ -53,9 +55,12 @@ public class MainLayout extends AppLayout {
         RouterLink inicio = new RouterLink("Inicio", MainView.class);
         inicio.setHighlightCondition(HighlightConditions.sameLocation());
 
+        RouterLink characters = new RouterLink("Characters", CharacterListView.class);
+        characters.setHighlightCondition(HighlightConditions.sameLocation());
 
         addToDrawer(new VerticalLayout(
-                inicio
+                inicio,
+                characters
         ));
     }
 

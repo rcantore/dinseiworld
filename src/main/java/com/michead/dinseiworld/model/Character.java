@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -15,5 +16,5 @@ public class Character extends AbstractEntity {
     String shortBio;
 
     @ManyToMany
-    List<Flick> flicks;
+    List<Flick> flicks = new ArrayList<>();
 }

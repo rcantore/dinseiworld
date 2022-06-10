@@ -5,6 +5,7 @@ import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -15,5 +16,5 @@ public class Flick extends AbstractEntity {
     Integer stars;
 
     @ManyToMany
-    List<Character> characters;
+    List<Character> characters = new ArrayList<>();
 }

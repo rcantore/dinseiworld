@@ -12,19 +12,28 @@ import com.vaadin.flow.router.Route;
 @PageTitle("Dinsei World")
 public class CharacterListView extends VerticalLayout {
     private Grid<Character> grid = new Grid<>(Character.class);
+    private CharacterService characterService;
 
     public CharacterListView(CharacterService characterService) {
+        this.characterService = characterService;
+
         addClassName("list-view");
         setSizeFull();
         configureGrid();
+        populateGrid();
+    }
+
+    private void populateGrid() {
+        grid.setItems(characterService.getAllCharacters());
     }
 
     private void configureGrid() {
         grid.addClassName("standard-grid");
         grid.setSizeFull();
         grid.setColumns("name", "age", "weight", "shortBio");
-
         grid.getColumns().forEach(col -> col.setAutoWidth(true));
+
+        add(grid);
 
     }
 }

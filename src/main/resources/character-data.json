@@ -1,0 +1,18 @@
+[
+  {
+    "_class": "com.michead.dinseiworld.model.Character",
+    "name": "Raton Dinsei",
+    "age": 94,
+    "weight": 0.200,
+    "shortBio" : "Famoso Ratón, ha tenido muchos trabajos en su vida y no piensa jubilarse",
+    "id": 1
+  },
+  {
+    "_class": "com.michead.dinseiworld.model.Character",
+    "name": "Pato Dolan",
+    "age": 64,
+    "weight": 1.300,
+    "shortBio" : "Descubierto en una carniceria por el casa talento William E. Morris, salto al estrellato por su gran lexico y expresividad",
+    "id": 2
+  }
+]

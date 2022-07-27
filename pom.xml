@@ -15,7 +15,7 @@
     <description>dinseiworld</description>
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>14.8.0</vaadin.version>
+        <vaadin.version>14.8.14</vaadin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -87,6 +87,21 @@
                         </exclude>
                     </excludes>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-maven-plugin</artifactId>
+                <version>${vaadin.version}</version>
+                <executions>
+                    <execution>
+                        <id>frontend</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>prepare-frontend</goal>
+                            <goal>build-frontend</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

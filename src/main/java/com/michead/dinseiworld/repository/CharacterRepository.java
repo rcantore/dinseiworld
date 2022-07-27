@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CharacterRepository extends JpaRepository<Character, Long> {
+
+    Character findCharacterByAge(Integer age);
+
 }

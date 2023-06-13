@@ -15,7 +15,7 @@
     <description>dinseiworld</description>
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>14.8.14</vaadin.version>
+        <vaadin.version>14.10.1</vaadin.version>
     </properties>
     <dependencies>
         <dependency>

@@ -160,6 +160,7 @@
       "webpack-babel-multi-target-plugin": "2.5.0",
       "webpack-cli": "3.3.11",
       "webpack-dev-server": "3.11.0",
+      "terser": "4.6.7",
       "webpack-merge": "4.2.2"
     },
     "hash": "106633e5a12f0aa74ea43437f28e51cdd2ab6e34a7c7ccae10101c3efa722ce4"

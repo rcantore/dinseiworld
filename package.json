@@ -59,7 +59,8 @@
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "construct-style-sheets-polyfill": "3.0.4",
     "lit-element": "2.5.1",
-    "lit-html": "1.4.1"
+    "lit-html": "1.4.1",
+    "terser": "4.6.7"
   },
   "devDependencies": {
     "@types/node": "18.14.0",
@@ -166,6 +167,6 @@
       "webpack-dev-server": "3.11.0",
       "webpack-merge": "4.2.2"
     },
-    "hash": "5bf4095a5527a7f5d3bb7399e1576bd205817470bb4fff8bde44a9fbb56e0d15"
+    "hash": "85e3fbf369283d0c98fd2e2b900f62a5ce9facbaa1a7535c2afeab3cb1b80d17"
   }
 }

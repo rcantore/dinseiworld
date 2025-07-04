@@ -2,8 +2,8 @@ package com.michead.dinseiworld.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import java.util.List;
 
 @Entity

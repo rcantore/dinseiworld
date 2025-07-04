@@ -2,8 +2,8 @@ package com.michead.dinseiworld.security;
 
 import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 class CustomRequestCache extends HttpSessionRequestCache {
 

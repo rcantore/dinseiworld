@@ -13,17 +13,6 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.HighlightConditions;
 import com.vaadin.flow.router.RouterLink;
-import com.vaadin.flow.server.PWA;
-
-@PWA(
-        name = "Dinsei World",
-        shortName = "Dinsei",
-        offlineResources = {
-                "./styles/offline.css",
-                "./images/offline.png"
-        },
-        enableInstallPrompt = false
-)
 @CssImport("./styles/shared-styles.css")
 public class MainLayout extends AppLayout {
 
